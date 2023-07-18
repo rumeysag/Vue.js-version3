@@ -26,6 +26,11 @@ const routes = [
     path: '/lifecycle',
     name: 'lifecycle',
     component: () =>import('../views/LifeCycleHooks.vue')
+  },
+  {
+    path: '/class-style',
+    name: 'class-style',
+    component: () =>import('../views/ClassStyleBinding.vue')
   }
 ]
 
