@@ -16,6 +16,11 @@ const routes = [
     path: '/counter',
     name: 'counter',
     component: () =>import('../views/Counter.vue')
+  },
+  {
+    path: '/reactivity',
+    name: 'reactivity',
+    component: () =>import('../views/Reactivity.vue')
   }
 ]
 
