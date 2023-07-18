@@ -49,7 +49,14 @@ export default {
       console.log("Counter 2 çalıştı");
          return this.counter2 > 5 ? 'BÜYÜK' : 'KÜÇÜK';
     },
-
+  },
+  watch : {
+    counter (newValue, oldValue){
+      console.log(oldValue, "=>" ,newValue)
+    },
+    getCounterResult(newValue, oldValue){
+      console.log(oldValue, "=>" ,newValue)
+    }
   }
 //   methods : {
 //     inc(){
