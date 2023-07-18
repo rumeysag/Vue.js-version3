@@ -21,6 +21,11 @@ const routes = [
     path: '/reactivity',
     name: 'reactivity',
     component: () =>import('../views/Reactivity.vue')
+  },
+  {
+    path: '/lifecycle',
+    name: 'lifecycle',
+    component: () =>import('../views/LifeCycleHooks.vue')
   }
 ]
 
