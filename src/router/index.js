@@ -31,6 +31,11 @@ const routes = [
     path: '/class-style',
     name: 'class-style',
     component: () =>import('../views/ClassStyleBinding.vue')
+  },
+  {
+    path: '/conditions',
+    name: 'conditions',
+    component: () =>import('../views/Conditions.vue')
   }
 ]
 
