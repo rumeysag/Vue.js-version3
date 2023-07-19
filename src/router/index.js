@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/Home.vue'
+import HomeView from '../views/01.Home.vue'
 
 const routes = [
   {
@@ -10,33 +10,43 @@ const routes = [
   {
     path: '/todo',
     name: 'todo',
-    component: () =>import('../views/ToDo.vue')
+    component: () =>import('../views/02.ToDo.vue')
   },
   {
     path: '/counter',
     name: 'counter',
-    component: () =>import('../views/Counter.vue')
+    component: () =>import('../views/03.Counter.vue')
   },
   {
     path: '/reactivity',
     name: 'reactivity',
-    component: () =>import('../views/Reactivity.vue')
+    component: () =>import('../views/04.Reactivity.vue')
   },
   {
     path: '/lifecycle',
     name: 'lifecycle',
-    component: () =>import('../views/LifeCycleHooks.vue')
+    component: () =>import('../views/05.LifeCycleHooks.vue')
   },
   {
     path: '/class-style',
     name: 'class-style',
-    component: () =>import('../views/ClassStyleBinding.vue')
+    component: () =>import('../views/06.ClassStyleBinding.vue')
   },
   {
     path: '/conditions',
     name: 'conditions',
-    component: () =>import('../views/Conditions.vue')
-  }
+    component: () =>import('../views/07.Conditions.vue')
+  },
+  {
+    path: '/loops',
+    name: 'loops',
+    component: () =>import('../views/08.Loops.vue')
+  },
+  // {
+  //   path: '/odevler',
+  //   name: 'odevler',
+  //   component: () =>import('../views/Odevler.vue')
+  // }
 ]
 
 const router = createRouter({
