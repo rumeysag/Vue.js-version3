@@ -42,11 +42,11 @@ const routes = [
     name: 'loops',
     component: () =>import('../views/08.Loops.vue')
   },
-  // {
-  //   path: '/odevler',
-  //   name: 'odevler',
-  //   component: () =>import('../views/Odevler.vue')
-  // }
+  {
+    path: '/odevler',
+    name: 'odevler',
+    component: () =>import('../views/09.Odevler.vue')
+  }
 ]
 
 const router = createRouter({
