@@ -43,9 +43,19 @@ const routes = [
     component: () =>import('../views/08.Loops.vue')
   },
   {
-    path: '/odevler',
-    name: 'odevler',
-    component: () =>import('../views/09.Odevler.vue')
+    path: '/odev1',
+    name: 'odev1',
+    component: () =>import('../views/09.Odev1.vue')
+  },
+  {
+    path: '/odev2',
+    name: 'odev2',
+    component: () =>import('../views/10.Odev2.vue')
+  },
+  {
+    path: '/odev3',
+    name: 'odev3',
+    component: () =>import('../views/11.Odev3.vue')
   }
 ]
 
