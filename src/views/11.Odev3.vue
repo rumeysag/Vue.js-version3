@@ -12,7 +12,7 @@
             <!-- Tek satırlık durumda turnery tag içinde yazılabilir -->
             <p class="mt-5">{{ value < 33 ? "Henuz bitmedi" : "Tamamlandı" }}</p>  
 
-            <!-- Tek satır olmayan durumda ise script içine methods ile fonksiyon yazıp, p fonskiyonu burada çağırabiliriz -->
+            <!-- Tek satır olmayan durumda ise script içine methods ile fonksiyon yazıp, fonskiyonu burada çağırabiliriz -->
             <p>{{ result() }}</p> 
           </div>
           <!-- 2) result property' değerini izleyerek 5 saniye sonra value'nun değerini sıfırlayınız. (ipucu: setTimeout(..., 5000) kullanılabilir.-->
@@ -37,6 +37,10 @@ export default {
         result() {
            return this.value < 33 ? "Henuz bitmedi" : "Tamamlandı"
        }
+      },
+      created(){
+        setTimeout(()=>{
+            this.value=0}, 5000)
       }
     }
 </script>
