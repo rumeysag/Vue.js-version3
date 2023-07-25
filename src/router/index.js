@@ -56,7 +56,13 @@ const routes = [
     path: '/odev3',
     name: 'odev3',
     component: () =>import('../views/11.Odev3.vue')
+  },
+  {
+    path: '/sidebar',
+    name: 'sidebar',
+    component: () =>import('../views/Sidebar.vue')
   }
+
 ]
 
 const router = createRouter({
