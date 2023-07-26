@@ -3,6 +3,7 @@
     <button @click="showBorder = !showBorder" >Border ekle/kaldır</button>
     <button @click="redBG = !redBG">kırmızı BG yap</button>
   <div class="box" :style="{backgroundColor : bgColor}" :class="boxClasses"></div>
+
 </template>
 
 <script>
@@ -18,7 +19,7 @@ export default {
     computed: {
         boxClasses(){
             return{border: this.showBorder, red: this.redBG}
-        }
+        },
     }
    
 }
