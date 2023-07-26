@@ -56,12 +56,7 @@ const routes = [
     path: '/odev3',
     name: 'odev3',
     component: () =>import('../views/11.Odev3.vue')
-  },
-  {
-    path: '/component',
-    name: 'component',
-    component: () =>import('../components/appHeader.vue')
-  }
+  }, 
 ]
 
 const router = createRouter({

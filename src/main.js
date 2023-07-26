@@ -12,4 +12,4 @@ app.component("app-header", appHeader)
 .mount('#app')
 
 // tüm uygulamada kullanılacak bir css dosyası burada import edilir.
-// import "@/assets/style.css"
+// import "../../assets/style.css"
