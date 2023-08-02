@@ -7,8 +7,8 @@ import  appHeader from "./components/appHeader.vue"
 
 const app = createApp(App)
 app.component("app-header", appHeader)
-.use(store)
-.use(router)
+app.use(store)
+app.use(router)
 .mount('#app')
 
 // tüm uygulamada kullanılacak bir css dosyası burada import edilir.
